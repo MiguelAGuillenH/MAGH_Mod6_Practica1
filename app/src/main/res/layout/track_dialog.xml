@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/trackDialogMain"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutTrackName"
+        style="@style/PlayMent_TextInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="10dp"
+        android:hint="@string/label_track"
+        app:layout_constraintTop_toTopOf="parent"
+        app:startIconDrawable="@drawable/ic_track"
+        tools:layout_editor_absoluteX="16dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtTrackName"
+            style="@style/PlayMent_TextInputEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:maxLines="1" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutTrackArtist"
+        android:hint="@string/label_artist"
+        app:startIconDrawable="@drawable/ic_artist"
+        style="@style/PlayMent_TextInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="10dp"
+        app:layout_constraintTop_toBottomOf="@id/layoutTrackName" >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtTrackArtist"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:maxLines="1"
+            style="@style/PlayMent_TextInputEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutTrackAlbum"
+        android:hint="@string/label_album"
+        app:startIconDrawable="@drawable/ic_album"
+        style="@style/PlayMent_TextInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="10dp"
+        app:layout_constraintTop_toBottomOf="@id/layoutTrackArtist" >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtTrackAlbum"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:maxLines="1"
+            style="@style/PlayMent_TextInputEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutTrackGenre"
+        android:hint="@string/label_genre"
+        app:startIconDrawable="@drawable/ic_genre"
+        style="@style/PlayMent_ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="10dp"
+        app:layout_constraintTop_toBottomOf="@id/layoutTrackAlbum" >
+
+        <com.google.android.material.textfield.MaterialAutoCompleteTextView
+            android:id="@+id/comTrackGenre"
+            android:inputType="none"
+            style="@style/PlayMent_TextInputEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:dropDownHeight="230dp"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

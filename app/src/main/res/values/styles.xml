@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PlayMent_CardView">
+        <item name="android:backgroundTint">@color/PM_dark_gray</item>
+    </style>
+    <style name="PlayMent_Dialog" parent="Theme.MaterialComponents.Dialog.Alert">
+        <item name="android:background">@color/PM_dark_gray</item>
+        <item name="colorPrimary">@color/PM_green</item>
+    </style>
+    <style name="PlayMent_TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="android:textColorHint">@color/PM_white</item>
+        <item name="boxStrokeColor">@color/text_input_box_stroke</item>
+        <item name="startIconTint">@color/text_input_box_stroke</item>
+        <item name="boxBackgroundMode">outline</item>
+        <item name="boxCornerRadiusTopStart">16dp</item>
+        <item name="boxCornerRadiusTopEnd">16dp</item>
+        <item name="boxCornerRadiusBottomStart">16dp</item>
+        <item name="boxCornerRadiusBottomEnd">16dp</item>
+    </style>
+    <style name="PlayMent_TextInputEditText" parent="ThemeOverlay.Material3.TextInputEditText">
+        <item name="android:textColor">@color/PM_white</item>
+    </style>
+    <style name="PlayMent_ExposedDropdownMenu" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="android:textColorHint">@color/PM_white</item>
+        <item name="boxStrokeColor">@color/text_input_box_stroke</item>
+        <item name="startIconTint">@color/text_input_box_stroke</item>
+        <item name="endIconTint">@color/text_input_box_stroke</item>
+        <item name="boxBackgroundMode">outline</item>
+        <item name="boxCornerRadiusTopStart">16dp</item>
+        <item name="boxCornerRadiusTopEnd">16dp</item>
+        <item name="boxCornerRadiusBottomStart">16dp</item>
+        <item name="boxCornerRadiusBottomEnd">16dp</item>
+    </style>
+</resources>

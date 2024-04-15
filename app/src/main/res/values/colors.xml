@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="PM_black">#FF1A1C19</color>
+    <color name="PM_dark_gray">#FF424940</color>
+    <color name="PM_gray">#FF8B9389</color>
+    <color name="PM_light_gray">#FFC1C9BE</color>
+    <color name="PM_white">#FFE2E3DD</color>
+
+    <color name="PM_light_green">#69FF89</color>
+    <color name="PM_green">#FF34E36A</color>
+    <color name="PM_dark_green">#FF00531F</color>
+    <color name="PM_darker_green">#FF003913</color>
+
+</resources>

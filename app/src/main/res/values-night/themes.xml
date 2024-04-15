@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Mod6Practica1" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/PM_green</item>
+        <item name="colorPrimaryDark">@color/PM_dark_green</item>
+        <item name="colorOnPrimary">@color/PM_darker_green</item>
+        <item name="colorContainer">@color/PM_dark_green</item>
+        <item name="colorOnContainer">@color/PM_light_green</item>
+        <item name="backgroundColor">@color/PM_black</item>
+        <item name="colorOnBackground">@color/PM_white</item>
+        <item name="colorSurface">@color/PM_black</item>
+        <item name="colorOnSurface">@color/PM_white</item>
+        <item name="colorOutline">@color/PM_gray</item>
+        <item name="colorSurfaceVariant">@color/PM_dark_gray</item>
+        <item name="colorOnSurfaceVariant">@color/PM_light_gray</item>
+
+        <item name="android:colorBackground">@color/PM_black</item>
+        <item name="android:textColor">@color/PM_white</item>
+    </style>
+</resources>
